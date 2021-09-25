@@ -1,0 +1,93 @@
+.options-selector-container {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #3caea3;
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .options-selector-container {
+    width: 30%;
+    height: 100vh;
+    min-width: 300px;
+    max-width: 400px;
+  }
+}
+.page-heading {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Roboto';
+  color: #f4f5ff;
+}
+@media (min-width: 768px) {
+  .page-heading {
+    text-align: left;
+  }
+}
+.inputs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 6px 0;
+}
+.label {
+  color: #f4f5ff;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+.select-menu {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  color: #008080;
+  background-color: #f4f5ff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding: 0 10px;
+  margin-bottom: 6px;
+  border: none;
+  outline: none;
+}
+.amount-input {
+  width: 100%;
+  height: 40px;
+  color: #008080;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+.convert-button {
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: #008080;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 6px 0 0 0;
+}
+.small-device-logout-button {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  align-self: flex-end;
+  margin: 0 0 10px 0;
+  color: #ffffff;
+  background-color: #008080;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .small-device-logout-button {
+    display: none;
+  }
+}
